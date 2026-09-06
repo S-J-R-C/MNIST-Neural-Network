@@ -20,8 +20,8 @@ number_inputs = 784
 hiddenNodes = 128
 number_outputs = 10
 
-learningRate = 0.1
-epochs = 5
+learningRate = float(input("Enter learning rate: "))
+epochs = int(input("Enter number of epochs: "))
 
 np.random.seed(1)
 
